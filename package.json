@@ -1,0 +1,24 @@
+{
+  "name": "trailreplay",
+  "version": "1.0.0",
+  "description": "Open source GPX trail visualization and video generation app",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "npm --prefix app run dev",
+    "build": "npm --prefix app ci && npm --prefix app run build",
+    "lint": "npm --prefix app run lint",
+    "test": "npm --prefix app run test:run",
+    "preview": "npm --prefix app run preview"
+  },
+  "keywords": [
+    "gpx",
+    "trail",
+    "visualization",
+    "maplibre",
+    "threejs",
+    "opensource"
+  ],
+  "author": "",
+  "license": "MIT"
+}
